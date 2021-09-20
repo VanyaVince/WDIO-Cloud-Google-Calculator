@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631894750994' stop='1631894757178'>
+    <name>Google Cloud Pricing Calculator</name>
+    <title>Google Cloud Pricing Calculator</title>
+    <test-cases>
+        <test-case start='1631894750995' status='broken' stop='1631894757176'>
+            <name>Add to estimation</name>
+            <title>Add to estimation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1631894750999' status='passed' stop='1631894756885'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0fabe291-8a42-47d4-aab5-92fc1342d2ca-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631894756890' status='passed' stop='1631894756907'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='dcc8d112-f9f9-4b02-b60f-c6c74297fe50-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631894756918' status='passed' stop='1631894757160'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cb279d52-78ec-40d1-baf7-13f3a07bb69e-attachment.png' type='image/png' size='159615'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_header.default.searchService is not a function</message>
+                <stack-trace>TypeError: _header.default.searchService is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO\wdio-cloud-1\test\specs\/cloud.calculation.test.js:14:20)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

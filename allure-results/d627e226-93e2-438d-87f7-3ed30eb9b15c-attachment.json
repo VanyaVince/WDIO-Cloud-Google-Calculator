@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='gsc-resultsbox-visible']\"}\n  (Session info: chrome=93.0.4577.63)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0077A2D3+2663123]\n\tOrdinal0 [0x0070A491+2204817]\n\tOrdinal0 [0x005F2118+1057048]\n\tOrdinal0 [0x0061CA6B+1231467]\n\tOrdinal0 [0x00646A02+1403394]\n\tOrdinal0 [0x00635A0A+1333770]\n\tOrdinal0 [0x00644D8F+1396111]\n\tOrdinal0 [0x0063589B+1333403]\n\tOrdinal0 [0x00611F74+1187700]\n\tOrdinal0 [0x00612DC9+1191369]\n\tGetHandleVerifier [0x009130D6+1610054]\n\tGetHandleVerifier [0x009BB53B+2299307]\n\tGetHandleVerifier [0x00808DA9+519705]\n\tGetHandleVerifier [0x00807759+513993]\n\tOrdinal0 [0x0071112D+2232621]\n\tOrdinal0 [0x007155F8+2250232]\n\tOrdinal0 [0x00715732+2250546]\n\tOrdinal0 [0x0071E591+2286993]\n\tBaseThreadInitThunk [0x775CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A4E+238]\n"
+}

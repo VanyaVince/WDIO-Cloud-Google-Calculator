@@ -1,0 +1,127 @@
+{
+  "id": {
+    "sessionId": "a617527e71365a7a6fed137220b31d5e",
+    "elementId": "f73da0b5-0df5-4f18-ab7f-b9614af1c56a",
+    "element-6066-11e4-a52e-4f735466cecf": "f73da0b5-0df5-4f18-ab7f-b9614af1c56a",
+    "selector": "//article[@id='cloud-site']//iframe",
+    "parent": {
+      "sessionId": "a617527e71365a7a6fed137220b31d5e",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "93.0.4577.82",
+        "chrome": {
+          "chromedriverVersion": "93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203})",
+          "userDataDir": "C:\\Users\\HONOR\\AppData\\Local\\Temp\\scoped_dir3040_835833920"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:56982"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./test/specs/cloud.calculation.test.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://cloud.google.com/",
+        "_": [
+          "wdio.conf.js",
+          "cloud.calculation.test.js"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

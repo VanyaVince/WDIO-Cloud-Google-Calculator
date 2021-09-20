@@ -1,0 +1,26 @@
+{
+  "name": "wdio-cloud-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.12.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.12.5",
+    "@wdio/local-runner": "^7.12.5",
+    "@wdio/mocha-framework": "^7.12.5",
+    "@wdio/spec-reporter": "^7.12.5",
+    "chromedriver": "^93.0.1",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}

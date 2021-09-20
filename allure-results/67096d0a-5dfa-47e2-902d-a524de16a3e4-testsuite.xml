@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631899273234' stop='1631899279667'>
+    <name>Google Cloud Pricing Calculator</name>
+    <title>Google Cloud Pricing Calculator</title>
+    <test-cases>
+        <test-case start='1631899273234' status='broken' stop='1631899279666'>
+            <name>Add to estimation</name>
+            <title>Add to estimation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1631899273238' status='passed' stop='1631899278714'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dbcf2f20-5c86-4664-885a-eb430d73de23-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631899278718' status='passed' stop='1631899278760'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7c6c1588-9135-403e-817b-d6c854563439-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='8f02d2d6-41f1-4f66-8582-45de39be1d0f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631899278778' status='passed' stop='1631899278946'>
+                    <name>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/click</name>
+                    <title>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631899278946' status='passed' stop='1631899278990'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6f10c6a6-9f48-47ef-a8ab-077de26caeba-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='a171ec67-aa6c-4040-82a2-f74301d4269a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631899278999' status='passed' stop='1631899279046'>
+                    <name>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/clear</name>
+                    <title>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631899279056' status='passed' stop='1631899279316'>
+                    <name>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/value</name>
+                    <title>POST /session/:sessionId/element/bb0ec5ca-6796-4169-be08-0cbe0f66e38a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1ee83e16-2dfc-4593-bc38-8d98c9a107b5-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631899279317' status='passed' stop='1631899279352'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='32da72c3-f8c2-4a38-99ce-38d039eff679-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='41d0f0b2-d903-465c-9c75-10719d9f075a-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631899279357' status='passed' stop='1631899279661'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2a47d546-9c79-4ec8-8525-dfc0f7b847d9-attachment.png' type='image/png' size='154990'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element could not be found</message>
+                <stack-trace>Error: Element could not be found
+                    at D:\WebdriverIO\wdio-cloud-1\node_modules\@wdio\utils\build\shim.js:220:31
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
