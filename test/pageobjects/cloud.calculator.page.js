@@ -11,6 +11,9 @@ class CloudCalculatorPage extends Page {
     get saveExtimationBtn () { return $("//button[contains(@aria-label, 'Save Estimate')]")};
     get resultBlock () { return $("//md-card-content[@id='resultBlock']")}; 
 
+    async selectFromDropDown(value) { 
+        return $(`//div[contains(@class, 'md-active')]//md-option[@value='${value}']`);}
+
     async specifyComputeEngineInstances (number) {
         await this.CE_instance.setValue(number)
     }
@@ -23,7 +26,7 @@ class CloudCalculatorPage extends Page {
     async selectComputeEngineMachineClass (value) {
         await this.CE_machineClassBtn.click();
         await this.CE_machineClass.waitForDisplayed();
-        await $(`//div[contains(@class, 'md-active')]//md-option[@value='${value}']`).click();
+        await (await this.selectFromDropDown(value)).click();    
     }
 
     async focusOnOuterFrame() {
@@ -35,7 +38,8 @@ class CloudCalculatorPage extends Page {
     }
 
     async isResultBlockDisplayed() {
-        expect(this.resultBlock).toBeDisplayed;
+        const expectResult = await this.resultBlock
+        expect(expectResult).toBeDisplayed;
     }
 }
 
