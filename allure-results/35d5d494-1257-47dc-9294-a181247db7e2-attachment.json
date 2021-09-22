@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='gsc-expansionArea']\"}\n  (Session info: chrome=93.0.4577.82)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00EEA2D3+2663123]\n\tOrdinal0 [0x00E7A491+2204817]\n\tOrdinal0 [0x00D62118+1057048]\n\tOrdinal0 [0x00D8CA6B+1231467]\n\tOrdinal0 [0x00DB6A02+1403394]\n\tOrdinal0 [0x00DA5A0A+1333770]\n\tOrdinal0 [0x00DB4D8F+1396111]\n\tOrdinal0 [0x00DA589B+1333403]\n\tOrdinal0 [0x00D81F74+1187700]\n\tOrdinal0 [0x00D82DC9+1191369]\n\tGetHandleVerifier [0x010830D6+1610054]\n\tGetHandleVerifier [0x0112B53B+2299307]\n\tGetHandleVerifier [0x00F78DA9+519705]\n\tGetHandleVerifier [0x00F77759+513993]\n\tOrdinal0 [0x00E8112D+2232621]\n\tOrdinal0 [0x00E855F8+2250232]\n\tOrdinal0 [0x00E85732+2250546]\n\tOrdinal0 [0x00E8E591+2286993]\n\tBaseThreadInitThunk [0x775CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A4E+238]\n"
-}

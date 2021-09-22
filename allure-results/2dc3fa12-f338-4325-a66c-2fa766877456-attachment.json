@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//md-option[@value='preemptible']\"}\n  (Session info: chrome=93.0.4577.82)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x004BA2D3+2663123]\n\tOrdinal0 [0x0044A491+2204817]\n\tOrdinal0 [0x00332118+1057048]\n\tOrdinal0 [0x0035CA6B+1231467]\n\tOrdinal0 [0x00353241+1192513]\n\tOrdinal0 [0x00375A0A+1333770]\n\tOrdinal0 [0x003531C6+1192390]\n\tOrdinal0 [0x00375ABA+1333946]\n\tOrdinal0 [0x00384D8F+1396111]\n\tOrdinal0 [0x0037589B+1333403]\n\tOrdinal0 [0x00351F74+1187700]\n\tOrdinal0 [0x00352DC9+1191369]\n\tGetHandleVerifier [0x006530D6+1610054]\n\tGetHandleVerifier [0x006FB53B+2299307]\n\tGetHandleVerifier [0x00548DA9+519705]\n\tGetHandleVerifier [0x00547759+513993]\n\tOrdinal0 [0x0045112D+2232621]\n\tOrdinal0 [0x004555F8+2250232]\n\tOrdinal0 [0x00455732+2250546]\n\tOrdinal0 [0x0045E591+2286993]\n\tBaseThreadInitThunk [0x75FCFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F57A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F57A6E+238]\n"
-}

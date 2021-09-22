@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//md-option[@value='preemptible']"
-}

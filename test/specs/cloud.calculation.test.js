@@ -26,6 +26,7 @@ describe('Google Cloud Pricing Calculator', () => {
     allureReporter.addSeverity("minor");
 
     await HomePage.open();
-    await expect(browser).toHaveUrl("www//:example.com");
+    const currentURL = await browser.getUrl();
+    await expect(currentURL).toHaveText("www//:example.com");
   });
 });

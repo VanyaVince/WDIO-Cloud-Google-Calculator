@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//md-select[contains(@aria-label, 'VM')]//span[contains(@class, 'icon')]"
-}

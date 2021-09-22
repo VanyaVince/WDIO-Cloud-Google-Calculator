@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "report:clear": "npx rimraf ./report/allure-results",
+    "report:generate": "npx allure serve ./report/allure-results",
+    "test:run": "wdio run wdio.conf.js"
   },
   "keywords": [],
   "author": "",

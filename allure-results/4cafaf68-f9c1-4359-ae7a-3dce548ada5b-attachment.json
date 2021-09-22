@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//form[@name='ComputeEngineForm']//button[contains(@aria-label, 'Add to Estimate')]"
-}
